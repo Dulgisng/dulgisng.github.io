@@ -1,0 +1,89 @@
+body { 
+	background-image:url('https://media.wired.com/photos/5fb5af0289ec42a6fa779e9c/master/w_2400,h_1800,c_limit/Gear-Cat-Toy-1226448423.jpg'); 
+	background-repeat:no-repeat; 
+	background-size: cover;
+	
+}
+
+ul{ 
+	padding: 10px;
+	overflow: hidden;
+}
+
+ul li{
+	display:inline;
+	width:300px; 
+	height:10px; 
+	padding: 5px
+}
+
+ul li a{
+	text-decoration: none;
+	font-family: courier new;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.7s ease;
+}
+
+ul li a:hover{
+	border-radius: 200px;
+	background: lightgray ;
+	padding: 30px;
+	width: 200px;
+	height: 150px;
+	color: black;
+}
+
+ul li.active a{
+	border-radius: 200px;
+	background: lightgray;
+	padding: 25px;
+	width: 200px;
+	height: 150px;
+	color: white;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text h1{
+		color: white;
+		font-size: 60px;
+		font-family: courier new;
+	
+}
+
+.boxes{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+
+}
+
+.bxs{
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: courier new;
+    transition: 0.7s ease;
+    font-weight: bold;
+}
+
+.bxs:hover{
+    background-color: white;
+    color: black;
+}
+
+picture {
+	align-items: center;
+}
